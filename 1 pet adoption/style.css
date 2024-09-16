@@ -1,0 +1,116 @@
+header{
+    background-color: maroon;
+    height: 150px;
+}
+#websitename{
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+    box-shadow: 1px 1px 10px 3px black;
+    background-color: white;
+    text-align: center; 
+
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-l
+}
+
+#weblink{
+    font-style: italic;
+    font-size: 20px;
+    border: 2px solid ;
+    /* border-radius: 10px; */
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    background-color:black;
+}
+.banner{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#card1{
+    
+    border: 2px solid black;
+    height: 500px;
+    width: 350px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+   
+
+    
+}
+
+#card2{
+    
+    border: 2px solid black;
+    height: 500px;
+    width: 350px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+#card3{
+    
+    border: 2px solid black;
+    height: 500px;
+    width: 350px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+#image1{
+    border:2px solid black ;
+    height: 160px;
+    width: 335px;
+    border-radius:25px ;
+    background-image:url(dog1.jpg);
+    background-size:cover;
+    margin:5px ;
+
+}
+#image2{
+    border:2px solid black ;
+    height: 160px;
+    width: 335px;
+    border-radius:30px ;
+    background-image:url(dog2.jpg);
+    background-size:cover;
+    margin:5px ;
+
+}
+#image3{
+    border:2px solid black ;
+    height: 160px;
+    width: 335px;
+    border-radius:30px ;
+    background-image:url(dog3.jpg);
+    background-size:cover;
+    margin:5px ;
+
+}
+h3  {
+    margin-left: 10px;
+}
+p{
+    margin: 0px 10px 0px 10px;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks{
+    color: white;
+    font-size: 50px;
+    
+}
