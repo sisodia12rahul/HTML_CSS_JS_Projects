@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(14, 10, 43);
+    color: white;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pallet{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.boxContainer{
+    display: flex;
+    gap: 1rem;
+}
+
+.box{
+    height: 8rem;
+    width: 8rem;
+    border: 2px solid white ;
+    border-radius: 1rem;
+}
+
+.red{
+    background-color: rgb(128, 0, 0);
+}
+
+.blue{
+    background-color: rgb(0, 0, 128);
+}
+
+.yellow{
+    background-color: rgb(187, 84, 0);
+}
+
+.purple{
+    background-color: rgb(128, 0, 128);
+}
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: rgb(7, 172, 7);
+}
+
+.gameOver{
+    background-color: rgb(173, 0, 0);
+}
+
+.highScore{
+    margin-top: 2rem;
+    font-size: 1rem;
+}
