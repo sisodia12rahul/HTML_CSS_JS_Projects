@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.delete{
+    border-radius: 3px;
+    margin-right:5rem;
+    color: rgb(201, 0, 0);
+    border: .5px solid rgb(201, 0, 0);
+    padding-left: .5rem;
+   padding-right: .5rem;
+}
